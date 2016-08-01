@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simon® Game | Daniel Cole | Web Developer</title>
+    <meta name="description" content="A Simon® Game created by Daniel Cole, a web developer based in Manchester, UK">
+	<meta name="author" content="Daniel Cole">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+	<link rel="apple-touch-icon" href="favicon/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+	 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+<div id="container">
+  <div id="simon">
+    <div id="controls"><h1><a href="http://www.danielcole.co.uk" target="_blank">SIMON</a><span id="registered">®</span></h1>
+      <div id="count"><p id="display" class="animated"></p>
+      </div>
+      <div id="start" class="controlButton">
+        <p>START</p>
+      </div>
+      <div id="strict" class="controlButton">
+        <p>STRICT</p>
+      </div>
+      <div id="strictLight"></div>
+      <div id="switch">
+        <div id="switchBlock">
+        </div>
+        <p>ON/OFF</p>
+      </div>      
+    </div>
+    <div id="green" class="colorButton"></div>
+    <div id="red" class="colorButton"></div>
+    <div id="yellow" class="colorButton"></div>
+    <div id="blue" class="colorButton"></div>
+  </div>
+</div>
+<audio id="greenAudio" src="/audio/green.mp3" type="audio/mp3">
+<audio id="redAudio" src="/audio/red.mp3" type="audio/mp3">
+<audio id="yellowAudio" src="/audio/yellow.mp3" type="audio/mp3">
+<audio id="blueAudio" src="/audio/blue.mp3" type="audio/mp3">
+<audio id="wrongAudio" src="/audio/wrong.mp3" type="audio/mp3">
+<audio id="wrongStrictAudio" src="/audio/wrong_strict.mp3" type="audio/mp3">  
+<audio id="successAudio" src="/audio/success.mp3" type="audio/mp3">
+<audio id="winAudio" src="/audio/win.mp3" type="audio/mp3">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>    
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
